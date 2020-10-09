@@ -1,4 +1,4 @@
-# Palindrome
+# Palindrome App
 
 ## General info
 A palindrome is a string where it's reversed order is exactly the same as the original. This app tests if the input is a palindrome by taking the original string, running a for loop to reverse each character. And then it goes through a If/else to test if there is a match.
