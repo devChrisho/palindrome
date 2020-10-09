@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #dfdfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#container {
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.509), -4px -4px 10px rgba(255, 255, 255, 0.735);
+          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.509), -4px -4px 10px rgba(255, 255, 255, 0.735);
+  width: 300px;
+  height: 400px;
+  background: lightblue;
+  border-radius: 20px;
+  font-family: sans-serif;
+  padding: 20px;
+  position: relative;
+}
+
+#container h3 {
+  text-align: center;
+  color: #d77e7e;
+  font-weight: 500;
+  margin: 30px 20px;
+  font-size: 22px;
+}
+
+#container #input {
+  background-color: #dfdfdf;
+  border: none;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  color: #4d4d4d;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.495), inset -1px -1px 4px rgba(255, 255, 255, 0.523);
+          box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.495), inset -1px -1px 4px rgba(255, 255, 255, 0.523);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px auto;
+  font-size: 20px;
+}
+
+#container #check {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ae6060;
+  border-radius: 20px;
+  background-color: #d77e7e;
+  color: whitesmoke;
+  outline: none;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.509), -4px -4px 10px rgba(255, 255, 255, 0.735);
+          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.509), -4px -4px 10px rgba(255, 255, 255, 0.735);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.392), -1px -1px 2px rgba(255, 255, 255, 0.434);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#container #check:active {
+  -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.543);
+          box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.543);
+}
+
+#container #check,
+#container #output {
+  margin-top: 30px;
+}
+
+#container #output {
+  color: #4d4d4d;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
