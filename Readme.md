@@ -13,7 +13,7 @@ Project created with:
 ## Design
 This was designed in neomorphic style. 
 
-![Screenshot](screenshot.jpg)
+<img src="screenshot.jpg" width="50%">
 
 ## Challenges Faced
 Overall, this was a fun little app to build. The only problem I had was dealing with the capitalizations of words. This was easily solved using the `.toLowerCase()` method.
