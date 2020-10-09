@@ -13,7 +13,7 @@ Project created with:
 ## Design
 This was designed in neomorphic style. 
 
-![Screenshot](screenshot.jpg?style="zoom:50%;")
+![Screenshot](screenshot.jpg? style="zoom:50%;")
 
 ## Launch
 Test run it **[HERE](http://htmlpreview.github.io/?https://github.com/superchrisho/palindrome/blob/main/index.html)**
