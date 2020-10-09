@@ -3,7 +3,7 @@
 ##Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Design)(#design)
+* [Design](#design)
 * [Launch](#launch)
 
 ##General info
